@@ -1,0 +1,134 @@
+@import './resets.css';
+@import './fonts.css';
+
+.container{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 50px;
+}
+.font__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.font__desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 50px;
+}
+.main{
+    height: 900px;
+    background: url(../image/back.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 70px;
+    color: #fff;
+    &__contant{
+        margin-top: 140px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        font-variant: small-caps;
+    }
+    &__sm-title{
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 57px;
+    }
+    &__sign{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 109px;
+    }
+    &__social{
+        margin-top: 270px;
+        &__link{
+            column-gap: 20px;
+        }
+    }
+}
+.service{
+    padding-top: 150px;
+    height: 763px;
+    &__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 89px;
+    }
+    &__group{
+        color: #303030;
+    }
+    & img{
+        align-items: flex-end;
+        height: 670px;
+        object-fit: cover;
+    }
+}
+.rate{
+    padding-top: 300px;
+    color: #303030;
+    height: 765px;
+    &__top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__left-part{
+        display: flex;
+        column-gap: 40px;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        position: relative;
+        transition: .6s;
+        &:before{
+            content: "";
+            width: 80px;
+            height: 0;
+            border: 1px solid #303030;
+            position: absolute;
+            top: 30px;
+            transition: .6s;
+        }
+    }
+    &__right-part{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 17px;
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 90px;
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    &__img{
+        margin-bottom: 100px;
+    }
+    &__card{
+        & svg{
+            margin-top: 36px;
+            margin-right: 22px;
+        }
+    }
+}

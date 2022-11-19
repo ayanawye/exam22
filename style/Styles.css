@@ -1,1 +1,143 @@
-/*# sourceMappingURL=Styles.css.map */
+@import './resets.css';
+@import './fonts.css';
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #868585;
+  margin-bottom: 50px;
+}
+
+.font__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.font__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 50px;
+}
+
+.main {
+  height: 900px;
+  background: url(../image/back.jpg) no-repeat center/cover;
+  text-align: center;
+  padding-top: 70px;
+  color: #fff;
+}
+.main__contant {
+  margin-top: 140px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.main__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  font-variant: small-caps;
+}
+.main__sm-title {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+}
+.main__sign {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 109px;
+}
+.main__social {
+  margin-top: 270px;
+}
+.main__social__link {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.service {
+  padding-top: 150px;
+  height: 763px;
+}
+.service__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 89px;
+       column-gap: 89px;
+}
+.service__group {
+  color: #303030;
+}
+.service img {
+  align-items: flex-end;
+  height: 670px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rate {
+  padding-top: 300px;
+  color: #303030;
+  height: 765px;
+}
+.rate__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.rate__left-part {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.rate__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  position: relative;
+  transition: 0.6s;
+}
+.rate__text:before {
+  content: "";
+  width: 80px;
+  height: 0;
+  border: 1px solid #303030;
+  position: absolute;
+  top: 30px;
+  transition: 0.6s;
+}
+.rate__right-part {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 17px;
+}
+.rate__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+}
+.rate__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.rate__img {
+  margin-bottom: 100px;
+}
+.rate__card svg {
+  margin-top: 36px;
+  margin-right: 22px;
+}/*# sourceMappingURL=Styles.css.map */

@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    mask-mode: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 a{
@@ -12,5 +12,5 @@ button{
     border: none;
 }
 body{
-    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
 }
